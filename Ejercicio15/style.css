@@ -1,0 +1,16 @@
+fieldset{
+    margin: 2%;
+    display: inline;
+    border: solid 2px black;
+
+}
+
+.leyenda{
+    font-family: 'Trebuchet MS';
+    font-size: large;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
