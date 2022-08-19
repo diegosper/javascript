@@ -1,16 +1,40 @@
-fieldset{
-    margin: 2%;
-    display: inline;
-    border: solid 2px black;
+body{
+    background-color: lightgrey;
+}
 
+fieldset{
+    border: solid 2px black;
+    margin: 3%;
+}
+
+.box{
+    /*border: dotted red 3px;*/
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 5vh;
 }
 
 .leyenda{
     font-family: 'Trebuchet MS';
     font-size: large;
+    text-align: left;
 }
 
 .container{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*border: dashed gray 1px;*/
+    padding: 3vh;
+}
+
+.input-number{
+    width: 3vw;
+}
+
+
+[id*="arr"]{
+    font-weight: bold;
+    font-size: x-large;
+    font-family: sans-serif;
 }

@@ -11,23 +11,27 @@
 
 <body>
     <div class="container">
-        <fieldset>
-            <legend class="leyenda">Add item</legend>
-            <button>push</button>
-            <button>unshift</button>
-            <button>insert at</button>
-            <input type="number" min="0" value="0">  
+        <div class="box">
+            <fieldset>
+                <legend class="leyenda">Add item</legend>
+                <button id="push" onclick="pushFunction()">push</button>
+                <button id="unshift" onclick="unshiftFunction()">unshift</button>
+                <button id="insert" onclick="insertAtFunction()">insert at</button>
+                <input class="input-number" id="input-1" type="number" min="1" value="1">
 
-        </fieldset>
+            </fieldset>
 
-        <fieldset>
-            <legend class="leyenda">Add item</legend>
-            <button>push</button>
-            <button>unshift</button>
-            <button>insert at</button>
-            <input type="number" min="0" value="0">  
+            <fieldset>
+                <legend class="leyenda">Remove item</legend>
+                <button id="pop" onclick="popFunction()">pop</button>
+                <button id="shift" onclick="shiftFunction()">shift</button>
+                <button id="remove" onclick="removeAtFunction()">remove</button>
+                <input class="input-number" id="input-2" type="number" min="1" value="1">
 
-        </fieldset>
+            </fieldset>
+        </div>
+        <p id="p-array">[<span id="array"></span>]</p>
+        
     </div>
     <script src="./main.js"></script>
 </body>
