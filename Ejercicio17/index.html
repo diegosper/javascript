@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Piedra, papel o tijera</h1>
-    
-    <div id="mensaje"></div>
+
+    <div id="resultado" style="margin-bottom: 1rem;"></div>
+    <div id="cant-partidas"></div>
     <button class="boton" id="piedra" onclick="jugar(1)">🪨</button>
     <button class="boton" id="papel" onclick="jugar(2)">🧻</button>
     <button class="boton" id="tijera" onclick="jugar(3)">✂️</button>
-    <button class="boton" id="salir" onclick="finalizarJuego()">Finalizar partida</button>
-    <div id="ganador"></div>
+    <button class="boton" id="salir" onclick="comenzarDeNuevo()">Comenzar de nuevo</button>
+    
+    <div id="jugadaUsuario"></div>
+    <div id="jugadaComputadora"></div>
+    <div id="partida"></div>
 
     <script src="./main.js"></script>
 </body>
+
 </html>
