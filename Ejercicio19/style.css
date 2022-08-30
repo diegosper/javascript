@@ -8,6 +8,10 @@ body{
     flex-direction: column;
 }
 
+.box-boton2{
+    visibility: hidden;
+}
+
 #bombilla-off{
     height: 75vh;
 }
